@@ -1,0 +1,140 @@
+*{
+    font-family: 'Rosarivo', serif;
+}
+
+#section1{
+    color: white;
+    background-image: url('/images/online_piano.jpg');
+
+}
+
+header {
+    border-bottom: outset;
+    height:auto;
+    max-height:100%;
+    overflow:auto;  
+}
+
+header h1, h2, h3, p {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* header, nav {
+    position:fixed;
+} */
+
+#section1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#section1 h3 {
+    text-align: center;
+}
+
+#section1 button {
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#section1 button:hover {
+    background-color: whitesmoke;
+}
+
+
+#section1 button a {
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+}
+
+
+
+#section1 button a:hover {
+    font-size: 120%;
+    background-color: whitesmoke;
+}
+
+
+#section2{
+    text-align: center;
+    height:auto;
+    max-height:100%;
+    overflow:auto;  
+}
+
+#section2 h1, h2, h3, p {
+    text-align: center;
+}
+
+.navigation{
+    margin: 5px;
+    padding: 50px;
+}
+
+.navigation #main {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation #icons {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navigation #main a {
+    color: #222;
+    display: block;
+    line-height: 1.2;
+    padding: 9px 15px;
+    text-decoration: none;
+    word-wrap: break-word;
+    list-style: none;
+    background: #ca2017;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.navigation #main a:hover{
+    background-color: #fff;
+    color: red;
+    border: solid 5px white;
+    border-radius: 5px solid white
+}
+
+.navigation #icons a {
+    color: #222;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    font-size: 26px;
+}
+
+.navigation #icons a:hover {
+    font-size: 150%;
+}
+
+
+/* footer{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.iconaçılım{
+    padding: 1px;
+    margin: 10px;
+    border-radius: 10px;
+}
