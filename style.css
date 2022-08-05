@@ -5,14 +5,9 @@
 
 #section1{
     color: white;
-    /* background-image: url('/images/online_piano.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5)),  url('/images/online_piano.jpg');
+    background-size: cover;
 }
-
-.section1 img {
-
-}
-
-
 
 header {
     margin-top: 25px;
@@ -20,6 +15,10 @@ header {
 
 header h1, h2, h3, p {
     text-align: center;
+}
+
+header h1{
+    font-size: 50px;
 }
 
 li {
@@ -31,57 +30,10 @@ li {
     position:fixed;
 } */
 
-#section1{
-    display: block;
-    text-align: center;
-    height: 500px;
-}
-
-
-
-#section1 h3 {
-    text-align: center;
-}
-
-#section1 button {
-    background-color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-#section1 button:hover {
-    background-color: whitesmoke;
-}
-
-
-#section1 button a {
-    text-decoration: none;
-    list-style: none;
-    background-color: white;
-}
-
-
-
-#section1 button a:hover {
-    font-size: 120%;
-    background-color: whitesmoke;
-}
-
-
-#section2{
-    text-align: center;
-    height:auto;
-    max-height:100%;
-    overflow:auto;  
-}
-
-#section2 h1, h2, h3, p {
-    text-align: center;
-}
 
 .navigation{
-    margin: 5px;
-    padding: 50px;
+    margin: 3px;
+    padding: 90px;
 }
 
 .navigation #main {
@@ -130,14 +82,72 @@ li {
     font-size: 150%;
 }
 
+#section1{
 
-/* footer{
+    text-align: center;
+    height: 500px;
+    margin: auto;
+}
+
+
+#section1 h3 {
+    text-align: center;
+}
+
+#section1 button {
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#section1 button:hover {
+    background-color: whitesmoke;
+}
+
+
+#section1 button a {
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+}
+
+
+
+#section1 button a:hover {
+    font-size: 120%;
+    background-color: whitesmoke;
+}
+
+
+#section2{
+    text-align: center;
+    height:auto;
+    max-height:100%;
+    overflow:auto;  
+}
+
+#section2 h1, h2, h3, p {
+    text-align: center;
+}
+
+
+
+
+
+footer{
     display: flex;
-    justify-content: space-between;
-} */
+    align-items: auto;
+}
 
-.iconaçılım{
+footer h3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .iconaçılım{
     padding: 1px;
     margin: 10px;
     border-radius: 10px;
-}
+} */
