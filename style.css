@@ -1,18 +1,21 @@
 *{
     font-family: 'Rosarivo', serif;
+    margin: 0;
 }
 
 #section1{
     color: white;
-    background-image: url('/images/online_piano.jpg');
+    /* background-image: url('/images/online_piano.jpg'); */
+}
+
+.section1 img {
 
 }
 
+
+
 header {
-    border-bottom: outset;
-    height:auto;
-    max-height:100%;
-    overflow:auto;  
+    margin-top: 25px;
 }
 
 header h1, h2, h3, p {
@@ -30,11 +33,11 @@ li {
 
 #section1{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
     text-align: center;
+    height: 500px;
 }
+
+
 
 #section1 h3 {
     text-align: center;
@@ -84,13 +87,13 @@ li {
 .navigation #main {
     float: left;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navigation #icons {
     float: right;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
