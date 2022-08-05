@@ -10,7 +10,16 @@
 }
 
 header {
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* .headerhead header, nav{
+    background-color: #fff;
+} */
+
+.headerhead .navigation {
+    margin-top: 33px;
 }
 
 header h1, h2, h3, p {
@@ -26,9 +35,13 @@ li {
 }
 
 
-/* header, nav {
+header, nav {
     position:fixed;
-} */
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 
 .navigation{
@@ -83,15 +96,30 @@ li {
 }
 
 #section1{
-
     text-align: center;
     height: 500px;
-    margin: auto;
+    margin-top: 250px;
+}
+
+#section1 .section1div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
-#section1 h3 {
-    text-align: center;
+#section1 h3, button {
+    font-size: 30px;
+}
+
+#section1 a {
+    font-size: 30px;
+    color: black;
+}
+
+#section1 button {
+    border-radius: 10px;
 }
 
 #section1 button {
@@ -119,25 +147,78 @@ li {
 }
 
 
+#section2 .öncesiboşluk{
+    margin-top: 100px;
+}
+
+#section2 .sonrasıboşluk{
+    margin-top: 100px;
+}
+
+
 #section2{
     text-align: center;
     height:auto;
     max-height:100%;
     overflow:auto;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px;
 }
 
 #section2 h1, h2, h3, p {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
 }
 
 
+.ders1{
+    background-image: url('/images/online_piyano.jpg'), linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5));
+    height: 500px;
+    margin-top: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.ders2{
+    background-image: url('/images/online_gitar.webp'), linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5));
+    height: 500px;
+    margin-top: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.ders3{
+    background-image: url('/images/online_flüt.jpg'), linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5));
+    height: 500px;
+    margin-top: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ders4{
+    background-image: url('/images/online_bestecilik.jpg'), linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5));
+    height: 500px;
+    margin-top: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 footer{
     display: flex;
-    align-items: auto;
+    flex-direction: column;
 }
+
+footer .sosyal {
+    display: flex;
+    align-items:stretch;
+    padding: 150px;
+    max-width: fit-content;
+}
+
+
 
 footer h3{
     text-align: center;
