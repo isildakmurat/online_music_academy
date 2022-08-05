@@ -30,6 +30,7 @@ header h1{
     font-size: 50px;
 }
 
+
 li {
     list-style: none;
 }
@@ -46,20 +47,15 @@ header, nav {
 
 .navigation{
     margin: 3px;
-    padding: 90px;
+    padding: 90px 10px 10px 10px;
 }
 
 .navigation #main {
-    float: left;
     display: flex;
-    justify-content: space-around;
+    float: left;
 }
 
-.navigation #icons {
-    float: right;
-    display: flex;
-    justify-content: space-around;
-}
+
 
 
 .navigation #main a {
@@ -82,23 +78,31 @@ header, nav {
     border-radius: 5px solid white
 }
 
-.navigation #icons a {
-    color: #222;
+
+.navigation .icons {
     display: flex;
-    justify-content: space-between;
+    float: right
+}
+
+.navigation .icons a {
+    color: #222;
     text-decoration: none;
     list-style: none;
     font-size: 26px;
 }
 
-.navigation #icons a:hover {
+.navigation .icons a:hover {
     font-size: 150%;
 }
 
 #section1{
     text-align: center;
     height: 500px;
-    margin-top: 250px;
+    margin-top: 170px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #section1 .section1div{
@@ -166,44 +170,103 @@ header, nav {
     padding: 100px;
 }
 
-#section2 h1, h2, h3, p {
+#section2 h1 {
     display: flex;
     justify-content: center;
     align-content: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
+#section2 p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+}
+
+
+/* #selection2 h1 {
+    font-size: 50px ;
+}
+
+#selection2 p {
+    font-size: 40px;
+    padding: 50px;
+} */
+
+
+
+.dersler a {
+    text-decoration: none;
+    color: #fff;
 }
 
 
 .ders1{
-    background-image: url('/images/online_piyano.jpg'), linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.6)), url('/images/online_piyano.jpg');
     height: 500px;
     margin-top: 250px;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.ders1 h3:hover {
+    font-size: 120%;
+}
+.ders2 h3:hover {
+    font-size: 120%;
+}
+.ders3 h3:hover {
+    font-size: 120%;
+}
+.ders4 h3:hover {
+    font-size: 120%;
+}
+
+
 .ders2{
-    background-image: url('/images/online_gitar.webp'), linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.6)), url('/images/online_gitar.webp');
     height: 500px;
-    margin-top: 250px;
+    margin-top: 5px;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ders3{
-    background-image: url('/images/online_flüt.jpg'), linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.6)), url('/images/online_flüt.jpg');
     height: 500px;
-    margin-top: 250px;
+    margin-top: 5px;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ders4{
-    background-image: url('/images/online_bestecilik.jpg'), linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.6)), url('/images/online_bestecilik.jpg');
     height: 500px;
-    margin-top: 250px;
+    margin-top: 5px;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
