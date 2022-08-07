@@ -10,16 +10,27 @@
 }
 
 header {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* .headerhead header, nav{
     background-color: #fff;
 } */
 
+.headerhead{
+    position: sticky;
+    top: 0;
+}
+
+.headerhead header{
+    background-color: white;
+}
+
 .headerhead .navigation {
-    margin-top: 33px;
+    margin-top: 0;
+    background-color: white;
+    padding: 20px 0 0 0;
 }
 
 header h1, h2, h3, p {
@@ -36,23 +47,24 @@ li {
 }
 
 
-header, nav {
+/* header, nav {
     position:fixed;
-    z-index: 1000;
+    z-index: 0;
     top: 0;
     left: 0;
     right: 0;
-}
+} */
 
 
 .navigation{
-    margin: 3px;
-    padding: 90px 10px 10px 10px;
+    /* margin: 3px; */
+    /* padding: 90px 10px 10px 10px; */
+
 }
 
 .navigation #main {
     display: flex;
-    float: left;
+    justify-content: flex-start;
 }
 
 
@@ -60,35 +72,38 @@ header, nav {
 
 .navigation #main a {
     color: #222;
-    display: block;
-    line-height: 1.2;
+    /* display: inline;
+    line-height: 1.2; */
     padding: 9px 15px;
+    margin: 1px;
     text-decoration: none;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     list-style: none;
     background: #ca2017;
-    border-radius: 5px;
+    border-radius: 7px;
     color: #fff;
+
 }
 
 .navigation #main a:hover{
     background-color: #fff;
     color: red;
     border: solid 5px white;
-    border-radius: 5px solid white
+    border-radius: 5px solid white;
 }
 
 
 .navigation .icons {
     display: flex;
-    float: right
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .navigation .icons a {
-    color: #222;
     text-decoration: none;
     list-style: none;
-    font-size: 26px;
+    font-size: 27px;
+    margin-inline-end: 2px;
 }
 
 .navigation .icons a:hover {
@@ -98,7 +113,7 @@ header, nav {
 #section1{
     text-align: center;
     height: 500px;
-    margin-top: 170px;
+    margin-top: 150px;
     color: #fff;
     display: flex;
     align-items: center;
