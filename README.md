@@ -6,3 +6,9 @@
 - You can see my project from the link below:
 
   https://isildakmurat.github.io/online_music_academy/
+
+<hr>
+
+<img src="online_music_academy_gif.gif">
+
+<hr>
